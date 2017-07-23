@@ -21,11 +21,13 @@
 <b>Nuclear Power Plants Under Construction</b>
 
 <table id="example" class="display" width="100%"></table>
- 
+$('#example').DataTable( {
+        C
+    } ); 
 <script>
 $(document).ready(function() {
   $('#example').DataTable( {
-  data: under_construction,
+  "ajax": "under_construction.json",
   columns: [
             { title: "Type" },
             { title: "Manufacturer" },
