@@ -1,4 +1,4 @@
-[
+{"data": [
 	["PWR","-","Argentina","25","Carem25"],
 	["PWR","-","China","1000","Fangchenggang 3"],
 	["PWR","-","China","1000","Fuqing 5"],
@@ -47,4 +47,4 @@
 	["PWR","-","United States","1117","Summer 3"],
 	["PWR","-","United States","1117","Vogtle 3"],
 	["PWR","-","United States","1117","Vogtle 4"]
-]
+]}
