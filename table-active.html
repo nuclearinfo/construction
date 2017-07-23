@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Nuclear Power Plants Under Construction</title>
+  <script type="text/javascript" rc="under_construction.js"></script>
+  <link rel="stylesheet" type="text/css"
+	  href="https//cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css"/>
+  <script type="text/javascript"
+	    src="//cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+</head>
+<body>
+
+<b>Nuclear Power Plants Under Construction</b>
+
+<table id="example" class="display" width="100%"></table>
+ 
+<script>
+$(document).ready(function() {
+  $('#example').DataTable( {
+  data: under_construction1,
+  columns: [
+            { title: "Type" },
+            { title: "Manufacturer" },
+            { title: "Country" },
+            { title: "Net effect" },
+            { title: "Name" }]  });
+  })
+})
+</script>
+
+</body>
+</html>
